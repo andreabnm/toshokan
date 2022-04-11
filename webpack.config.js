@@ -15,11 +15,11 @@ module.exports = {
     ],
     devtool: 'inline-source-map',
     devServer: {
-        contentBase: '/dist'
+        contentBase: '/docs'
     },
     output: {
         filename: 'js/main.js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'docs')
     },
     module: {
         rules: [
